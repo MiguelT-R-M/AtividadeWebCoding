@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 30px;
+}
+header{
+
+    height: 60px;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+nav{
+
+    padding: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+nav .Link{
+
+    padding-left: 60px;
+    color: white;
+    transition: 0.5s;
+
+}
+nav .Link:hover{
+
+    transform: scale(2);
+    
+}
+nav .Link:active{
+
+    transition: 0.01s;
+    color: blue;
+
+}
+main{
+
+    height: 900px;
+
+}
+main section{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#section1{
+
+    justify-content: left;
+    margin-left: 360px;
+
+}
+#section2{
+
+    justify-content: left;
+    margin-left: 145px;
+
+}
+#section3{
+
+    justify-content: left;
+    margin-left: 785px;
+
+}
+#section4{
+
+    justify-content: left;
+    margin-left: 570px;
+
+}
+#section5{
+
+    justify-content: left;
+    margin-left: 1250px;
+
+}
+#section6{
+
+    justify-content: left;
+    margin-left: 1035px;
+
+}
+#divnome{
+    
+    border-radius: 20px;
+    margin: 20px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 500px;
+    height: 700px;
+    color: white;
+    transition: 0.5s;
+
+}
+#divnome img{
+
+    width: 500px;
+
+}
+#divnome p{
+
+    font-size: 20px;
+
+}
+footer{
+
+
+    background: rgba(0, 0, 0, 0.8);
+
+}
+footer .Label{
+
+    color: white;
+
+}
+footer #tamanhofonte{
+
+    font-size: 30px;
+
+}
