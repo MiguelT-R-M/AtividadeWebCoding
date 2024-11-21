@@ -7,6 +7,7 @@ function mudaCor(){
         document.getElementById("main3").style.backgroundColor = "black";
         document.body.style.color = "white";
         document.getElementById("divform").style.backgroundColor = "gray";
+        document.getElementById("main3").style.color = "black";
 
     }
     else{
@@ -14,6 +15,7 @@ function mudaCor(){
         document.getElementById("main3").style.backgroundColor = "white";
         document.body.style.color = "black";
         document.getElementById("divform").style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+        document.getElementById("main3").style.color = "white";
 
 
     }
