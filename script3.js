@@ -4,14 +4,14 @@ function mudaCor(){
 
     if(valor.checked){
 
-        document.getElementById("main").style.backgroundColor = "black";
+        document.getElementById("main3").style.backgroundColor = "black";
         document.body.style.color = "white";
         document.getElementById("divform").style.backgroundColor = "gray";
 
     }
     else{
 
-        document.getElementById("main").style.backgroundColor = "white";
+        document.getElementById("main3").style.backgroundColor = "white";
         document.body.style.color = "black";
         document.getElementById("divform").style.backgroundColor = "rgba(0, 0, 0, 0.8)";
 

@@ -6,6 +6,7 @@
     font-family: roboto;
     font-size: 30px;
 }
+
 header{
 
     height: 60px;
@@ -39,9 +40,20 @@ nav .Link:active{
     color: blue;
 
 }
+
 main{
 
     height: 900px;
+
+}
+#main2{
+
+    height: 1100px;
+
+}
+#main3{
+
+    padding-bottom: 1000px;
 
 }
 main section{
@@ -64,6 +76,33 @@ main section{
     transition: 0.5s;
 
 }
+.card{
+
+    border-radius: 20px;
+    margin: 60px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 500px;
+    height: 700px;
+    color: white;
+    transition: 0.5s;
+
+}
+.card:hover{
+
+    transform: translateY(-20px);
+
+}
+.card img{
+
+    width: 500px;
+
+}
+.card p{
+
+    font-size: 20px;
+
+}
 #divnome img{
 
     width: 500px;
@@ -77,7 +116,7 @@ main section{
 #divform{
 
     border-radius: 20px;
-    margin: 200px;
+    margin-top: 100px;
     width: 500px;
     height: 350px;
     background-color:rgba(0, 0, 0, 0.8);
@@ -99,6 +138,15 @@ main section{
     margin-left: 180px;
 
 }
+#opinion{
+
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 500px;
+    height: 350px;
+
+}
+
 footer{
 
 
