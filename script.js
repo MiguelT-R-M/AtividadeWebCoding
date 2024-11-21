@@ -43,7 +43,7 @@ function mudaFonte(){
 function divSobe(){
 
     document.getElementById("divnome").style.transform = "translateY(-20px)";
-    
+
 
 }
 

@@ -74,6 +74,31 @@ main section{
     font-size: 20px;
 
 }
+#divform{
+
+    border-radius: 20px;
+    margin: 200px;
+    width: 500px;
+    height: 350px;
+    background-color:rgba(0, 0, 0, 0.8);
+
+}
+.reg{
+
+    margin-top: 20px;
+    margin-left: 60px;
+
+}
+#user{
+
+    margin-top: 90px;
+
+}
+#cadastro{
+
+    margin-left: 180px;
+
+}
 footer{
 
 
@@ -90,3 +115,5 @@ footer #tamanhofonte{
     font-size: 30px;
 
 }
+
+
