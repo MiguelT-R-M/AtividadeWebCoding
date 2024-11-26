@@ -26,7 +26,7 @@ function mudaFonte(){
 }
 
 
-let figuras = ["game_1.jpeg", "game_2.avif", "game_3.avif", "game_4.png", "game_5.avif"]
+let figuras = ["game_1.jpeg", "game_2.png", "game_3.jpg", "game_4.png", "game_5.jpg"]
 
 let cont = 1
 
@@ -70,7 +70,7 @@ function mudaImagem(){
     }
     if(cont==0){
 
-        document.getElementById("games").style.height = "500px";
+        document.getElementById("games").style.height = "600px";
         document.getElementById("titulo").innerHTML = "Metal Gear Solid 3"
         document.getElementById("sobre").innerHTML = "Jogo de stealth, sobrevivência e espionagem"
 

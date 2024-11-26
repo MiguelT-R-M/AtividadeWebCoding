@@ -82,7 +82,7 @@ main section{
     height: 700px;
     color: white;
     transition: 0.5s;
-    justify-items: center;
+    text-align: center;
 
 }
 #divnome img{
@@ -92,7 +92,7 @@ main section{
 }
 #divnome p{
 
-    font-size: 25px;
+    font-size: 20px;
 
 }
 #p1{
