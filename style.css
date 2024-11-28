@@ -147,22 +147,14 @@ main section{
     width: 500px;
     height: 350px;
     background-color:rgba(0, 0, 0, 0.8);
+    justify-items: center;
+    align-content: center;
 
 }
 .reg{
 
     margin-top: 20px;
-    margin-left: 60px;
 
-}
-#user{
-
-    margin-top: 90px;
-
-}
-#cadastro{
-
-    margin-left: 180px;
 
 }
 #opinion{
@@ -171,6 +163,22 @@ main section{
     border-radius: 20px;
     width: 500px;
     height: 350px;
+
+}
+@media only screen and (max-width:600px){
+
+    #divform{
+
+        width: 400px;
+        height: 300px;
+    
+    }
+    #opinion{
+
+        width: 400px;
+        height: 300px;
+        
+    }
 
 }
 
